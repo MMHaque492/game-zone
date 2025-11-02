@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container game-container">
+        <a href="/" class="back-link">&larr; Back to Menu</a>
+        <h1>Rock Paper Scissors</h1>
+        <p>Choose your move. The computer's choice comes from C++!</p>
+        
+        <div class="rps-choices">
+            <button class="btn rps-btn" data-choice="rock">Rock</button>
+            <button class="btn rps-btn" data-choice="paper">Paper</button>
+            <button class="btn rps-btn" data-choice="scissors">Scissors</button>
+        </div>
+        
+        <div id="result-text" class="game-result">
+            <h2 id="status-text">Make your move!</h2>
+            <p>Your choice: <span id="player-choice">...</span></p>
+            <p>C++ choice: <span id="computer-choice">...</span></p>
+        </div>
+    </div>
+    <script src="/script/rps.js"></script>
+</body>
+</html>

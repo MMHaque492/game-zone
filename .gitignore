@@ -1,0 +1,12 @@
+# This file tells Git which files and folders to ignore.
+
+# Node.js dependencies
+node_modules/
+
+# C++ build output
+build/
+*.node
+
+# OS-specific files
+.DS_Store
+Thumbs.db

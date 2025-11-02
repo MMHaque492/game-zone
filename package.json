@@ -1,0 +1,21 @@
+{
+  "name": "mini-game-hub",
+  "version": "1.0.0",
+  "description": "A hub for mini-games powered by a Node.js C++ addon",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node-gyp build",
+    "configure": "node-gyp configure",
+    "rebuild": "node-gyp rebuild",
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-addon-api": "^8.5.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.1.0"
+  },
+  "gypfile": true
+}

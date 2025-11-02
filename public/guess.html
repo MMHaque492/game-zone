@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container game-container">
+        <a href="/" class="back-link">&larr; Back to Menu</a>
+        <h1>Guess the Number</h1>
+        <p>The server is thinking of a number between 1 and 100 (from C++).</p>
+        
+        <div class="guess-form">
+            <input type="number" id="guess-input" placeholder="Enter your guess" min="1" max="100">
+            <button id="guess-btn" class="btn">Guess</button>
+        </div>
+        
+        <div class="game-result">
+            <h2 id="status-text">Good luck!</h2>
+            <p>Guesses taken: <span id="guess-count">0</span></p>
+        </div>
+        
+        <button id="reset-btn" class="btn" style="display: none;">Play Again</button>
+    </div>
+    <script src="/script/guess.js"></script>
+</body>
+</html>
